@@ -1,0 +1,6 @@
+<app-user-single
+    *ngFor="let user of listUser; index as i"
+    [index]="i"
+    [listUser]="user"
+    (remove)="removeItem($event)"
+></app-user-single>

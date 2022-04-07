@@ -1,0 +1,15 @@
+p {
+    display: inline;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    display: inline;
+}
+
+h1, h2, h3 {
+    display: inline;
+    padding: 6px;
+    margin: 6px;
+}

@@ -1,0 +1,9 @@
+<div>
+    <p>{{ index + 1}}</p>
+    <p></p>
+    <img [src]="listUser.profilePhotoUrl" alt="">
+    <h1>{{ listUser.name }}</h1>
+    <h2>{{ listUser.age }}</h2>
+    <h3>{{ listUser.address.city }}</h3>
+    <button type="button" (click)="removeItem(index)">Delete</button>
+</div>
